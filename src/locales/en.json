@@ -1,0 +1,84 @@
+{
+  "header": {
+    "title": "SATUSEHAT",
+    "subtitle": "Ministry of Health, Republic of Indonesia",
+    "plus": "+ Grok AI",
+    "clinicalIntelligence": "Clinical Intelligence"
+  },
+  "nav": {
+    "triage": "AI Triage",
+    "consult": "Remote Consult",
+    "support": "Decision Support",
+    "pathways": "Care Pathways",
+    "hospitals": "Hospital Finder"
+  },
+  "onboarding": {
+    "title": "Welcome to SATUSEHAT + Grok AI",
+    "subtitle": "Integrated health information system for 283 million JKN members",
+    "smartTriage": "Smart Triage",
+    "remoteCare": "Remote Care",
+    "aiSupport": "AI Support"
+  },
+  "triage": {
+    "title": "AI-Powered Triage",
+    "subtitle": "Get instant health assessment and recommendations",
+    "loginTitle": "Login with JKN Number",
+    "jknIdLabel": "JKN ID Number",
+    "jknIdPlaceholder": "JKN-2024-XXXXXX",
+    "loginButton": "Login (JKN)",
+    "patientInfo": "Patient Information",
+    "jknId": "JKN ID:",
+    "status": "Aktif",
+    "logout": "Logout",
+    "symptomsLabel": "Describe Your Symptoms",
+    "symptomsPlaceholder": "e.g., fever, cough, chest pain...",
+    "getTriageButton": "Get Triage Assessment",
+    "triageResult": "Triage Assessment",
+    "mockAssessment": "Mock assessment - Grok AI integration available"
+  },
+  "consult": {
+    "title": "Remote Consultation",
+    "subtitle": "Chat with healthcare providers powered by Grok AI",
+    "startConsult": "Start your consultation...",
+    "messageLabel": "Type your message...",
+    "sendButton": "Send",
+    "loginRequired": "Please login to access consultation"
+  },
+  "support": {
+    "title": "Clinical Decision Support",
+    "subtitle": "Get AI-powered recommendations for diagnosis and treatment",
+    "ageLabel": "Patient Age",
+    "agePlaceholder": "Age",
+    "vitalsLabel": "Blood Pressure / Vitals",
+    "vitalsPlaceholder": "High/Normal/Low",
+    "symptomsLabel": "Symptoms & Test Results",
+    "symptomsPlaceholder": "Describe symptoms and tests...",
+    "getButton": "Get AI Support",
+    "recommendation": "AI Recommendation",
+    "disclaimer": "For demonstration purposes only"
+  },
+  "pathways": {
+    "title": "Personalized Care Pathways",
+    "subtitle": "Generate customized treatment plans based on patient profile",
+    "conditionLabel": "Select Condition",
+    "historyLabel": "Medical History",
+    "historyPlaceholder": "Previous treatments, medications...",
+    "generateButton": "Generate Care Pathway",
+    "recommended": "Recommended Pathway",
+    "followUp": "Follow up appointments can be booked via SATUSEHAT app"
+  },
+  "footer": {
+    "satusehat": "SATUSEHAT",
+    "description": "Integrated Health Information System",
+    "quickLinks": "Quick Links",
+    "about": "About",
+    "help": "Help",
+    "services": "Services",
+    "providerLogin": "Provider Login",
+    "patientPortal": "Patient Portal",
+    "contact": "Contact",
+    "email": "Email: info@satusehat.kemkes.go.id",
+    "hotline": "Hotline: 1500-567",
+    "copyright": "© 2024 Ministry of Health, Republic of Indonesia. All Rights Reserved."
+  }
+}

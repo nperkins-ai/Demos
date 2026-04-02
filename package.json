@@ -9,9 +9,18 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/react": "^3.0.80",
+    "@ai-sdk/xai": "^3.0.50",
+    "ai": "^6.0.78",
+    "i18next": "^26.0.3",
+    "lucide-react": "^0.563.0",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-i18next": "^17.0.2",
+    "react-markdown": "^10.1.0",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

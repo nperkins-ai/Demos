@@ -1,0 +1,84 @@
+{
+  "header": {
+    "title": "SATUSEHAT",
+    "subtitle": "Kementerian Kesehatan Republik Indonesia",
+    "plus": "+ Grok AI",
+    "clinicalIntelligence": "Intelijen Klinis"
+  },
+  "nav": {
+    "triage": "Triage AI",
+    "consult": "Konsultasi Jarak Jauh",
+    "support": "Pandhuan Keputusan",
+    "pathways": "Jalur Perawatan",
+    "hospitals": "Pencarian Rumah Sakit"
+  },
+  "onboarding": {
+    "title": "Suwon Tumuli ing SATUSEHAT + Grok AI",
+    "subtitle": "Sistem informasi kesehatan terintegrasi kanggo 283 juta anggota JKN",
+    "smartTriage": "Triage Pinter",
+    "remoteCare": "Perawatan Jarak Jauh",
+    "aiSupport": "Pandhuan AI"
+  },
+  "triage": {
+    "title": "Triage Bertenaga AI",
+    "subtitle": "Entuk penilaian kesehatan cepet lan rekomendasi",
+    "loginTitle": "Mlebu nganggo Nomer JKN",
+    "jknIdLabel": "Nomer ID JKN",
+    "jknIdPlaceholder": "JKN-2024-XXXXXX",
+    "loginButton": "Mlebu (JKN)",
+    "patientInfo": "Informasi Pasien",
+    "jknId": "ID JKN:",
+    "status": "Aktif",
+    "logout": "Metu",
+    "symptomsLabel": "Caritakno Gejala Sampéyan",
+    "symptomsPlaceholder": "cth: demam, batuk, nyeri dada...",
+    "getTriageButton": "Entuk Penilaian Triage",
+    "triageResult": "Penilaian Triage",
+    "mockAssessment": "Penilaian mock - integrasi Grok AI kasedhiya"
+  },
+  "consult": {
+    "title": "Konsultasi Jarak Jauh",
+    "subtitle": "Cecaturan karo panyolong kesehatan sing didukung Grok AI",
+    "startConsult": "Mulai konsultasi Sampéyan...",
+    "messageLabel": "Ketik pesen Sampéyan...",
+    "sendButton": "Kirim",
+    "loginRequired": "Mangga mlebu kanggo ngakses konsultasi"
+  },
+  "support": {
+    "title": "Pandhuan Keputusan Klinis",
+    "subtitle": "Entuk rekomendasi bertenaga AI kanggo diagnosis lan perawatan",
+    "ageLabel": "Umur Pasien",
+    "agePlaceholder": "Umur",
+    "vitalsLabel": "Tekanan Darah / Vital",
+    "vitalsPlaceholder": "Dhuwur/Normal/Asor",
+    "symptomsLabel": "Gejala & Asil Tes",
+    "symptomsPlaceholder": "Caritakno gejala lan tes...",
+    "getButton": "Entuk Pandhuan AI",
+    "recommendation": "Rekomendasi AI",
+    "disclaimer": "Mung kanggo tujuan demonstrasi"
+  },
+  "pathways": {
+    "title": "Jalur Perawatan sing Dipersonalisasi",
+    "subtitle": "Gawé rencana perawatan sing disesuaikno adhedhasar profil pasien",
+    "conditionLabel": "Pilih Kondisi",
+    "historyLabel": "Riwayat Medis",
+    "historyPlaceholder": "Perawatan sadurungé, obat...",
+    "generateButton": "Gawé Jalur Perawatan",
+    "recommended": "Jalur sing Direkomendasikno",
+    "followUp": "Perjanjian temu tindak lanjut bisa dijadwalikno liwat aplikasi SATUSEHAT"
+  },
+  "footer": {
+    "satusehat": "SATUSEHAT",
+    "description": "Sistem Informasi Kesehatan Terintegrasi",
+    "quickLinks": "Pranala Cepet",
+    "about": "Tentang",
+    "help": "Bantuan",
+    "services": "Layanan",
+    "providerLogin": "Login Panyolong",
+    "patientPortal": "Portal Pasien",
+    "contact": "Kontak",
+    "email": "Email: info@satusehat.kemkes.go.id",
+    "hotline": "Hotline: 1500-567",
+    "copyright": "© 2024 Kementerian Kesehatan Republik Indonesia. Kabeh Hak Dilindungi."
+  }
+}
