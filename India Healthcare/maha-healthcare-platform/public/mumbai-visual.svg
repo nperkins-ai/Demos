@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8ebff"/>
+      <stop offset="100%" stop-color="#f9fcff"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5fa2d8"/>
+      <stop offset="100%" stop-color="#2f6fa2"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="420" fill="url(#sky)"/>
+  <rect y="300" width="960" height="120" fill="url(#sea)"/>
+  <circle cx="745" cy="90" r="36" fill="#ffd46b"/>
+
+  <path d="M280 300h170v-35h-22v-83h-24v-32h-78v32h-24v83h-22v35z" fill="#cb8e44"/>
+  <path d="M365 150h0M326 150h78M334 145h62M349 133h32" stroke="#8f5d28" stroke-width="4"/>
+  <path d="M358 265h12v35h-12zM326 265h10v35h-10zM394 265h10v35h-10z" fill="#8f5d28"/>
+
+  <path d="M0 300h960" stroke="#29608f" stroke-width="4"/>
+  <g fill="#214d74">
+    <rect x="0" y="210" width="70" height="90"/>
+    <rect x="80" y="190" width="54" height="110"/>
+    <rect x="142" y="225" width="36" height="75"/>
+    <rect x="186" y="176" width="60" height="124"/>
+    <rect x="252" y="215" width="24" height="85"/>
+    <rect x="462" y="200" width="56" height="100"/>
+    <rect x="528" y="184" width="66" height="116"/>
+    <rect x="602" y="226" width="28" height="74"/>
+    <rect x="636" y="198" width="44" height="102"/>
+    <rect x="686" y="170" width="76" height="130"/>
+    <rect x="770" y="230" width="28" height="70"/>
+    <rect x="804" y="188" width="48" height="112"/>
+    <rect x="860" y="214" width="42" height="86"/>
+    <rect x="906" y="196" width="36" height="104"/>
+  </g>
+
+  <g stroke="#f3f8ff" stroke-width="2" opacity="0.65">
+    <path d="M18 245h34M18 260h34M18 275h34"/>
+    <path d="M90 225h24M90 242h24M90 259h24"/>
+    <path d="M196 205h30M196 223h30M196 241h30M196 259h30"/>
+    <path d="M474 220h30M474 238h30M474 256h30"/>
+    <path d="M540 205h40M540 223h40M540 241h40M540 259h40"/>
+    <path d="M700 192h48M700 210h48M700 228h48M700 246h48"/>
+    <path d="M812 208h28M812 226h28M812 244h28"/>
+    <path d="M910 214h20M910 232h20M910 250h20"/>
+  </g>
+</svg>

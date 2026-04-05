@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2f8ff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="state" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7db4e6"/>
+      <stop offset="100%" stop-color="#2f73aa"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="960" height="560" fill="url(#bg)"/>
+
+  <g>
+    <path d="M130 312l30-52 52-20 36-40 62 12 34-22 70 12 42-24 66 16 42-12 56 26 48 0 40 36 52 16-10 42 22 38-20 26-72 10-40 18-76-8-62 20-34-18-58 16-74-18-52 12-44-34-56-8-36-42-18-42z"
+      fill="url(#state)" stroke="#1f5889" stroke-width="6" stroke-linejoin="round"/>
+
+    <path d="M186 292l64-28M246 220l26 66M304 210l0 76M366 194l8 98M430 190l0 110M494 182l6 114M560 198l2 94M620 190l14 116M686 208l2 86M742 236l0 74M796 278l-10 84M704 354l-66-8M574 376l-42-44M474 396l-20-92M358 390l-38-70M276 392l-34-72M194 362l46-32M780 314l-64 22M646 232l-46 42M546 246l-40 34M444 256l-40 36M346 264l-48 28"
+      stroke="#cfe7fb" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <g>
+    <circle cx="188" cy="350" r="12" fill="#ff6a3d" stroke="#ffffff" stroke-width="4"/>
+    <path d="M188 368v44" stroke="#ff6a3d" stroke-width="4" stroke-linecap="round"/>
+    <rect x="120" y="410" width="196" height="46" rx="10" fill="#ffffff" stroke="#d4e4f5"/>
+    <text x="138" y="438" fill="#2b577f" font-family="Noto Sans, sans-serif" font-size="22" font-weight="700">Mumbai Hub</text>
+  </g>
+
+  <g>
+    <rect x="620" y="402" width="240" height="104" rx="12" fill="#ffffff" stroke="#d6e4f4"/>
+    <text x="640" y="432" fill="#215782" font-family="Noto Sans, sans-serif" font-size="20" font-weight="700">Maharashtra Health Grid</text>
+    <text x="640" y="460" fill="#4f6f8e" font-family="Noto Sans, sans-serif" font-size="16">Referral and capacity map</text>
+    <text x="640" y="484" fill="#4f6f8e" font-family="Noto Sans, sans-serif" font-size="16">for citizen pathways</text>
+  </g>
+</svg>

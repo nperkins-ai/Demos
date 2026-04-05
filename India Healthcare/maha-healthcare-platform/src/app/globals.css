@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #f5f7fb;
+  --foreground: #132742;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.portal-shell {
+  background-image: linear-gradient(180deg, #f3f7ff 0%, #f5f7fb 40%, #f5f5f5 100%);
+}
+
+.gov-top-strip {
+  height: 10px;
+  background: linear-gradient(90deg, #f59836 0%, #f59836 33%, #ffffff 33%, #ffffff 66%, #2f7a3e 66%, #2f7a3e 100%);
+}
+
+.india-badge {
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  background: #f9f9f9;
+  color: #3f3f3f;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 0.2rem 0.45rem;
+}
+
+.chakra-mark {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 999px;
+  border: 2px solid #224e93;
+  background:
+    radial-gradient(circle at center, #224e93 2px, transparent 2px),
+    repeating-conic-gradient(from 0deg, rgba(34, 78, 147, 0.95) 0deg 6deg, transparent 6deg 15deg);
+}
+
+.glass-panel {
+  border-radius: 0.35rem;
+  border: 1px solid #d9e3f0;
+  background: #ffffff;
+  box-shadow: none;
+}
+
+.section-title {
+  font-size: 1.55rem;
+  letter-spacing: 0.01em;
+  color: #163f6c;
+}
+
+.hero-banner {
+  box-shadow: 0 10px 24px rgba(11, 79, 136, 0.08);
+}
+
+.mumbai-visual-card {
+  border: 1px solid #cfe0f2;
+  border-radius: 10px;
+  background: #f7fbff;
+  padding: 0.6rem;
+}
+
+.quick-mini-link {
+  border: 1px solid #cfdded;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 0.42rem 0.5rem;
+}
+
+.quick-mini-link .title {
+  color: #124c83;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.quick-mini-link .caption {
+  color: #5b6f86;
+  font-size: 0.7rem;
+}
+
+.service-card {
+  border: 1px solid #c9d8ea;
+  background: #ffffff;
+  color: #21486d;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: left;
+  transition: border-color 0.18s ease, background 0.18s ease;
+}
+
+.service-card.active {
+  border-color: #0b4f88;
+  background: #edf5ff;
+}
+
+.metric-card {
+  border: 1px solid #d5e2f2;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 0.95rem;
+}
+
+.metric-card p {
+  color: #0b4f88;
+  font-size: 1.7rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.metric-card span {
+  color: #5f6f82;
+  font-size: 0.8rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.35rem;
+  color: #3d3d3d;
+  font-size: 0.85rem;
+}
+
+.field input,
+.field textarea,
+.field select {
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  color: #2e2e2e;
+  padding: 0.56rem 0.7rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.field input:focus,
+.field textarea:focus,
+.field select:focus {
+  border-color: rgba(11, 79, 136, 0.8);
+  box-shadow: 0 0 0 2px rgba(11, 79, 136, 0.12);
+}
+
+.btn-primary,
+.btn-secondary {
+  border-radius: 4px;
+  padding: 0.55rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.btn-primary {
+  border: 1px solid #0b4f88;
+  background: #0b4f88;
+  color: #ffffff;
+}
+
+.btn-secondary {
+  border: 1px solid #bcbcbc;
+  background: #f5f5f5;
+  color: #404040;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.status-pill {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.76rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.chat-box {
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid #dbe6f3;
+  border-radius: 8px;
+  background: #f8fbff;
+  padding: 0.75rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.chat-bubble {
+  max-width: 92%;
+  border-radius: 8px;
+  padding: 0.5rem 0.6rem;
+  font-size: 0.82rem;
+}
+
+.chat-bubble.assistant {
+  justify-self: start;
+  background: #eaf4ff;
+  border: 1px solid #c9def6;
+}
+
+.chat-bubble.citizen {
+  justify-self: end;
+  background: #fff4e4;
+  border: 1px solid #ecd5b1;
+}
+
+.chat-tag {
+  margin-top: 0.3rem;
+  display: inline-block;
+  border-radius: 99px;
+  background: #f6dfbf;
+  color: #6f4b21;
+  font-size: 0.66rem;
+  padding: 0.1rem 0.45rem;
+}
+
+.use-case-card {
+  border: 1px solid #d5e3f3;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 0.85rem;
+}
+
+.use-case-card h3 {
+  color: #163f6c;
+  font-size: 1.15rem;
+}
+
+.use-case-card p {
+  margin-top: 0.2rem;
+  color: #526477;
+  font-size: 0.82rem;
+}
+
+.track-step {
+  border-radius: 6px;
+  border: 1px solid #d7e0ec;
+  background: #f8fbff;
+  color: #4f647b;
+  padding: 0.38rem 0.55rem;
+  font-size: 0.78rem;
+}
+
+.track-step.active {
+  border-color: #0b4f88;
+  background: #eaf4ff;
+  color: #0b4f88;
+  font-weight: 600;
+}
+
+.status-pill.online {
+  border-color: rgba(58, 126, 74, 0.5);
+  background: #e8f7ea;
+  color: #255735;
+}
+
+.status-pill.offline {
+  border-color: rgba(188, 123, 67, 0.45);
+  background: #fff2e6;
+  color: #86440f;
+}
+
+.status-pill.neutral {
+  border-color: rgba(181, 171, 157, 0.7);
+  background: #f6f2ea;
+  color: #334a64;
+}
+
+.workflow-step {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  border-radius: 4px;
+  border: 1px solid #e4e4e4;
+  background: #fafafa;
+  padding: 0.55rem 0.75rem;
+}
+
+.workflow-step span {
+  display: inline-grid;
+  place-items: center;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 4px;
+  background: #f7a54b;
+  color: #432308;
+  font-weight: 700;
+}
+
+.recommendation-card,
+.capacity-card {
+  border-radius: 4px;
+  border: 1px solid #e2e2e2;
+  background: #fcfcfc;
+  padding: 0.9rem;
+}
+
+.quick-link-item {
+  border-radius: 4px;
+  border: 1px solid #e1e1e1;
+  background: #fbfbfb;
+  color: #2f2f2f;
+  padding: 0.55rem 0.7rem;
+}
+
+@media (max-width: 640px) {
+  .india-badge-wrap {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .section-title {
+    font-size: 1.14rem;
+  }
+}

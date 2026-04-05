@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" fill="none">
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7bf6f"/>
+      <stop offset="45%" stop-color="#f2a85e"/>
+      <stop offset="100%" stop-color="#d67b43"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7aa3c1"/>
+      <stop offset="100%" stop-color="#3f6585"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="560" fill="url(#sunset)"/>
+  <ellipse cx="900" cy="112" rx="86" ry="60" fill="#ffd48d" opacity="0.66"/>
+
+  <path d="M0 342C136 320 244 318 362 336C524 362 612 384 752 378C908 372 1048 328 1280 314V560H0V342Z" fill="url(#water)"/>
+  <path d="M0 365C160 346 268 347 386 361C562 381 654 400 778 395C958 388 1084 352 1280 340" stroke="#c6d7e8" stroke-width="4" opacity="0.35"/>
+
+  <g fill="#2a343f">
+    <path d="M316 324h178v-18h-26v-108h-18v-20h-24v20h-16v108h-22v18z"/>
+    <rect x="378" y="198" width="10" height="108"/>
+    <rect x="420" y="198" width="10" height="108"/>
+    <rect x="352" y="214" width="8" height="92"/>
+    <rect x="452" y="214" width="8" height="92"/>
+    <rect x="340" y="306" width="132" height="18"/>
+    <path d="M365 178h92l-8-12h-76z"/>
+  </g>
+
+  <g fill="#1f2b36" opacity="0.92">
+    <rect x="40" y="224" width="84" height="106"/>
+    <rect x="130" y="202" width="68" height="128"/>
+    <rect x="204" y="236" width="50" height="94"/>
+    <rect x="260" y="188" width="52" height="142"/>
+    <rect x="512" y="222" width="74" height="108"/>
+    <rect x="594" y="176" width="82" height="154"/>
+    <rect x="684" y="228" width="56" height="102"/>
+    <rect x="748" y="196" width="70" height="134"/>
+    <rect x="826" y="182" width="96" height="148"/>
+    <rect x="930" y="236" width="56" height="94"/>
+    <rect x="994" y="194" width="78" height="136"/>
+    <rect x="1080" y="214" width="66" height="116"/>
+    <rect x="1152" y="190" width="72" height="140"/>
+  </g>
+
+  <g fill="#e3edf7" opacity="0.5">
+    <rect x="62" y="248" width="14" height="10"/>
+    <rect x="82" y="248" width="14" height="10"/>
+    <rect x="142" y="226" width="12" height="10"/>
+    <rect x="160" y="226" width="12" height="10"/>
+    <rect x="220" y="258" width="10" height="10"/>
+    <rect x="538" y="248" width="12" height="10"/>
+    <rect x="618" y="204" width="12" height="10"/>
+    <rect x="640" y="204" width="12" height="10"/>
+    <rect x="774" y="224" width="12" height="10"/>
+    <rect x="856" y="210" width="12" height="10"/>
+    <rect x="888" y="210" width="12" height="10"/>
+    <rect x="1018" y="224" width="12" height="10"/>
+    <rect x="1172" y="214" width="12" height="10"/>
+  </g>
+
+  <g fill="#2b3743">
+    <path d="M548 396l34-14 26 10 20-8 42 15-122-3z"/>
+    <path d="M840 412l40-16 30 11 24-10 50 18-144-3z"/>
+    <path d="M1020 380l20-8 16 6 12-5 26 10-74-3z"/>
+  </g>
+
+  <text x="48" y="72" fill="#fdf7ee" font-family="Noto Sans, sans-serif" font-size="32" font-weight="700" opacity="0.92">Maharashat Health Mission</text>
+  <text x="48" y="108" fill="#fff4e8" font-family="Noto Sans, sans-serif" font-size="18" opacity="0.85">Mumbai waterfront skyline | Citizen-first healthcare services</text>
+</svg>
